@@ -1,47 +1,56 @@
 📋 Customer Survey Form
+
 This is a simple HTML project created as part of The Odin Project's HTML curriculum. The goal is to build a functional survey form that collects customer feedback using various form input types.
 
 🚀 Project Overview
-This project demonstrates the use of:
 
-HTML form structure and semantics
+ This project demonstrates the use of:
 
-Fieldsets and legends for organization
+* HTML form structure and semantics
 
-Advanced input types (email, number, range, date, time)
+* Fieldsets and legends for organization
 
-Radio buttons and checkboxes
+* Advanced input types (email, number, range, date, time)
 
-Textareas and dropdown menus
+* Radio buttons and checkboxes
 
-Form validation using required, min, max, etc.
+* Textareas and dropdown menus
 
-Clean and structured layout using HTML5
+* Form validation using required, min, max, etc.
 
-Proper form input grouping with <fieldset> and <legend>
 
-Includes validations for name, email, and age
+✨ Features
 
-Responsive form layout using HTML best practices
+* Clean and structured layout using HTML5
 
-Navigation link back to homepage and contact page
+* Proper form input grouping with <fieldset> and <legend>
+
+* Includes validations for name, email, and age
+
+* Responsive form layout using HTML best practices
+
+* Navigation link back to homepage and contact page.
+
 
 📚 What I Learned
-How to structure forms properly in HTML
 
-The use of different input types and when to apply them
+* How to structure forms properly in HTML
 
-Grouping related inputs for better accessibility
+* The use of different input types and when to apply them
 
-Validating user inputs using HTML attributes
+* Grouping related inputs for better accessibility
 
-How to organize files for small projects
+* Validating user inputs using HTML attributes
+
+* How to organize files for small projects
+
 
 🛠️ How to Use
-Clone or download the project folder.
 
-Open index.html in your browser.
+1. Clone or download the project folder.
 
-Click the link to the survey form and fill it out.
+2. Open index.html in your browser.
 
-(Currently, form submission is non-functional — this is a front-end only demo.)
+3. Click the link to the survey form and fill it out.
+
+4. (Currently, form submission is non-functional — this is a front-end only demo.)
