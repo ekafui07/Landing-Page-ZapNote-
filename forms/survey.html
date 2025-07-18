@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Customer Survey</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="" />
+  <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <a href="../index.html">← Back to Home</a>
+
+    <h1>Customer Survey</h1>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" min="13" max="120" id="age" name="age" required>
+            <br>
+            <br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+        </fieldset>
+         
+        <br>
+        <br>
+    
+        <fieldset>
+            <legend>Service Experience</legend>
+            <label for="servicerange">Service Rating (1-10):</label>
+            <input type="range" id="servicerange" name="servicerange" min="1" max="10" value="5">
+            <br>
+            <br>
+            <label for="visitdate">Select a visit date:</label>
+            <input type="date" id="visitdate" name="visitdate">
+            <br>
+            <br>
+            <label for="visittime">Select a Visit time:</label>
+            <input type="time" id="visittime" name="visittime">
+
+        </fieldset>
+   
+        <h3>How did you hear about us?</h3>
+         <input type="radio" id="media" name="radio" value="Social Media">
+          <label for="media">Social Media</label>
+          <br>
+          <br>
+          <input type="radio" id="family" name="radio" value="Friend/Family">
+          <label for="family">Friend/Family</label>
+          <br>
+          <br>
+          <input type="radio" id="sell" name="radio" value="Advertisement">
+          <label for="sell">Advertisement</label>
+          <br>
+          <br>
+          <input type="radio" id="any" name="radio" value="Other">
+          <label for="any">Other</label>
+    
+    <br>
+ 
+        <h3>Services used - select all that apply</h3>
+          <input type="checkbox" id="consult" name="services[]">
+          <label for="consult">Consultation</label>
+          <br>
+          <br>
+          <input type="checkbox" id="support" name="services[]">
+          <label for="support">Technical Support</label>
+          <br>
+          <br>
+          <input type="checkbox" id="train" name="services[]">
+          <label for="train">Training</label>
+          <br>
+          <br>
+          <input type="checkbox" id="main" name="services[]">
+          <label for="main">Maintenance</label>
+    </form>
+
+    <br>
+        <label for="option">Would you recommend us?</label>
+
+        <select name="option" id="option">
+            <option value="Definitely">Definitely</option>
+            <option value="NO">Definitely Not</option>
+        </select>
+    
+    <br>
+    <br>
+    <a href="contact.html">← Contact Page</a>
+</body>
+</html>
